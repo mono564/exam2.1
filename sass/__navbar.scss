@@ -1,0 +1,39 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    &__list{
+        display: flex;
+        gap: 40px;
+        align-items: center;
+            .nav__link{
+                color: #10121e;
+                transition: all 0.4s ease-in-out;
+            }  
+            .nav__link:hover{ 
+                color: #FF6838;
+            }
+            .nav__btn{
+                width: 100px;
+                height: 40px;
+                background-color: #FF6838;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                transition: all 0.4s ease-in-out;
+                a{
+                    transition: all 0.4s ease-in-out;
+                    color: white;
+                }
+            }
+            .nav__btn:hover{
+                background-color: rgb(255, 255, 255);
+                color: #FF6838;
+                cursor: pointer;
+                box-shadow: 6px 6px 40px grey;
+                a{
+                    color: #FF6838;
+                }
+            }
+    }
+}
