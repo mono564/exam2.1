@@ -389,10 +389,14 @@ form .later-btn:hover a {
   margin-top: 10%;
 }
 
-@media only screen and (max-width: 1110px) {
+@media only screen and (max-width: 768px) {
   body {
-    background-color: #fb9572;
-    flex-wrap: wrap;
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  body {
+    width: 94%;
   }
 }
 .nav {
